@@ -27,7 +27,7 @@ var authPopup = {
       '<p class="txt">' + this.txt + '</p>',
       '<div class="btn-area">',
       '<a href="javascript:void(0);" class="btn-white close-dialog">暂不实名</a>',
-      '<a href="//authpay.jd.com/auth/toAuthPage?source=366&directReturnUrl=' + window.location.href + '" target="_blank"" class="btn-red close-dialog" clstag="pageclick|keycount|vip_public_stat|auth">去实名认证</a>',
+      '<a href="//test.com/auth/toAuthPage?source=366&directReturnUrl=' + window.location.href + '" target="_blank"" class="btn-red close-dialog" clstag="pageclick|keycount|vip_public_stat|auth">去实名认证</a>',
       '</div>'
     ].join('');
 

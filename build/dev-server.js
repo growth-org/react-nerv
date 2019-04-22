@@ -10,7 +10,7 @@ baseWebpackServer(webpackConfig, {
   autoOpenBrowser: true,
   proxy: {
     config: {
-      target: 'http://previp.jd.com',
+      target: 'http://test.com',
     },
     proxyTable
   },

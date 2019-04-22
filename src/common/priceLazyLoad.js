@@ -50,7 +50,7 @@ var priceLazyload = {
   loadMore: false,
   /**
    * 获取价格的地址
-   * http://cf.jd.com/pages/viewpage.action?pageId=34211539
+   * http://test.com/pages/viewpage.action?pageId=34211539
    */
   url: "//p.3.cn/prices/mgets",
   /**

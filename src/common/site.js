@@ -45,7 +45,7 @@ export default function (options) {
        * resultCode=101：用户未登录
        */
       if (data.resultCode == '101') {
-        window.location.href = '//passport.jd.com/uc/login?' + encodeURIComponent(window.location.href);
+        window.location.href = '//passport.test.com/uc/login?' + encodeURIComponent(window.location.href);
         return;
       }
       /**

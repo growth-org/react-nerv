@@ -1,7 +1,7 @@
 # 基于nerv框架的前端架构说明
 ## 前端技术选型：
 1、Nerv框架，组件化开发，对React进行了封装，支持IE8，地址：https://github.com/NervJS/nerv<br>
-2、JDF组件库，京东自己的组件库，地址：http://octopus.jd.com/octopus/html/detail/slider.html<br>
+2、JDF组件库，京东自己的组件库，地址：http://octopus.test.com/octopus/html/detail/slider.html<br>
 3、Sass，功能更强大，支持自定义function。<br>
 4、webpack4，打包基于basewebpack插件，支持多入口，地址：https://www.npmjs.com/package/basewebpack<br>
 

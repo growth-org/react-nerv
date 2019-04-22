@@ -50,7 +50,7 @@ $.extend(UserLocation.prototype, {
   },
   /**
    * 获取LBS服务提供的基于GIS、IP的定位信息
-   * http://lbsyun.m.jd.com/doc
+   * http://lbsyun.m.test.com/doc
    * 参数说明：
    * type：默认使用国家标准std
    * appid：必传项，需要申请分配，联系shuyi3或者zhoulongting
@@ -60,7 +60,7 @@ $.extend(UserLocation.prototype, {
     var self = this;
 
     $.ajax({
-      url: '//lbsapi.m.jd.com/gis',
+      url: '//lbsapi.m.test.com/gis',
       data: {
         appid: '5266a504ef4688eb764cc10365aff096',
         isdefaultipaddr: 1
